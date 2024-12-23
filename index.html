@@ -6,7 +6,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Evershine Cleaning Services</title>
     <meta name="author" content="Evershine">
-    <meta name="description" content="Evershine Cleaning services">
+    <meta name="description" content="Evershine Cleaning Services offers professional and reliable cleaning for homes and businesses. Enjoy spotless spaces with our trusted and affordable solutions.">
     <meta name="keywords" content="Evershine Cleaning services">
     <meta name="robots" content="INDEX,FOLLOW">
 
@@ -14,6 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Favicons - Place favicon.ico in the root directory -->
+    <link rel="stylesheet" href="style.css">
     <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicons/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicons/apple-icon-72x72.png">
@@ -44,6 +45,7 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!-- Fontawesome Icon -->
+     
     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
     <!-- Magnific Popup -->
     <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
@@ -58,20 +60,8 @@
 
 <body>
 
-    <!--[if lte IE 9]>
-    	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  	<![endif]-->
-
-
-    <!--********************************
-   		Code Start From Here 
-	******************************** -->
-
-    <!--==============================
-     Preloader
-  ==============================-->
     <div class="preloader ">
-        <button class="th-btn preloaderCls">Cancel Preloader </button>
+
         <div class="preloader-inner">
             <div class="loader"></div>
         </div>
@@ -89,55 +79,29 @@
         <div class="th-menu-area text-center">
             <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
             <div class="mobile-logo">
-                <a href="index.html"><img src="assets/img/logo.svg" alt="Kleanix"></a>
+                <a href="index.html"><img src="assets/img/logo.svg" alt="Evershine Cleaning Services"></a>
             </div>
             <div class="th-mobile-menu">
                 <ul>
-                    <li class="menu-item-has-children">
+                    <li>
                         <a href="index.html">Home</a>
-                        <ul class="sub-menu">
-                            <li><a href="index.html">Home Cleaning Service</a></li>
-                            <li><a href="home-2.html">Home House Cleaning</a></li>
-                            <li><a href="home-3.html">Home Commercial Cleaning </a></li>
-                        </ul>
-                    </li>
+                   </li>
                     <li><a href="about.html">About Us</a></li>
                     <li class="menu-item-has-children">
                         <a href="#">Service</a>
                         <ul class="sub-menu">
-                            <li><a href="service.html">Service</a></li>
-                            <li><a href="service-details.html">Service Details</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item-has-children">
-                        <a href="#">Pages</a>
-                        <ul class="sub-menu">
-                            <li class="menu-item-has-children">
-                                <a href="#">Shop</a>
-                                <ul class="sub-menu">
-                                    <li><a href="shop.html">Shop</a></li>
-                                    <li><a href="shop-details.html">Shop Details</a></li>
-                                    <li><a href="cart.html">Cart Page</a></li>
-                                    <li><a href="checkout.html">Checkout</a></li>
-                                    <li><a href="wishlist.html">Wishlist</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="team.html">Team</a></li>
-                            <li><a href="team-details.html">Team Details</a></li>
-                            <li><a href="project.html">Project Gallery</a></li>
-                            <li><a href="project-details.html">Project Details</a></li>
-                            <li><a href="pricing.html">Pricing Plan</a></li>
-                            <li><a href="testimonials.html">Testimonials</a></li>
-                            <li><a href="appointment.html">Appointment</a></li>
-                            <li><a href="faq.html">Faq Page</a></li>
-                            <li><a href="error.html">Error Page</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item-has-children">
-                        <a href="#">Blog</a>
-                        <ul class="sub-menu">
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="blog-details.html">Blog Details</a></li>
+                            <li><a href="#">Commercial</a></li>
+                            <li><a href="#">Residential</a></li>
+                            <li><a href="#">Building Cleaning</a></li>
+                            <li><a href="#">Deep Cleaning</a></li>
+                            <li><a href="#">Residential Complex</a></li>
+                            <li><a href="#">Shopping Malls</a></li>
+                            <li><a href="#">Hotels</a></li>
+                            <li><a href="#">Hospital</a></li>
+                            <li><a href="#">School</a></li>
+                            <li><a href="#">Carpet Cleaning</a></li>
+                            <li><a href="#">Office & Commercial Cleaning</a></li>
+                            <li><a href="#">Warehouse</a></li>
                         </ul>
                     </li>
                     <li>
@@ -156,8 +120,33 @@
                 <div class="menu-area">
                     <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
+
+                            <style>
+                                @keyframes moveLogo {
+                                    0% {
+                                        transform: translateY(0);
+                                    }
+                                    50% {
+                                        transform: translateY(-10px);
+                                    }
+                                    100% {
+                                        transform: translateY(0);
+                                    }
+                                }
+                                
+                                .logo-animation {
+                                    animation: moveLogo 3s ease-in-out infinite;
+                                    transition: transform 0.8s ease;
+                                }
+                                
+                                .logo-animation:hover {
+                                    transform: scale(1.1);
+                                    animation: none;
+                                }
+                                </style>
+
                             <div class="header-logo">
-                                <a href="index.html"><img src="assets/img/logo.svg" alt="Kleanix"></a>
+                                <a href="index.html"><img src="assets/img/logo.svg" alt="Kleanix" class="logo-animation"></a>
                             </div>
                         </div>
                         <div class="col-auto">
@@ -166,7 +155,7 @@
                                     <nav class="main-menu d-none d-lg-inline-block">
                                         <ul>
                                             <li>
-                                                <a href="home-3.html">Home</a>
+                                                <a href="index.html">Home</a>
                                            </li>
                                             <li><a href="about.html">About Us</a></li>
                                             <li class="menu-item-has-children">
@@ -195,7 +184,6 @@
                                 </div>
                                 <div class="col-auto d-none d-xl-block">
                                     <div class="header-button">
-                                        <button type="button" class="simple-icon searchBoxToggler"><i class="far fa-search"></i></button>
                                         <div class="header-info-box">
                                             <div class="header-info-box__icon">
                                                 <i class="fa-sharp fa-light fa-phone"></i>
@@ -220,7 +208,7 @@
         </div>
     </header>
 
-    <div class="th-hero-wrapper hero-3" id="hero" data-bg-src="assets/img/hero/hero_bg_3_1.jpg">
+    <div class="th-hero-wrapper hero-3" id="hero">
 
         <div class="hero-inner">
             <div class="shape-mockup hero_3-right_shape" data-mask-src="assets/img/hero/hero_3-right_shape.png"></div>
@@ -229,17 +217,17 @@
                 <img src="assets/img/hero/hero_3-main-img.png" alt="img">
             </div>
 
-            <div class="shape-mockup moving home-3-shape-1">
-                <img src="assets/img/shape/home-3-shape-1.svg" alt="shape">
+            <div class="shape-mockup moving index-shape-1">
+                <img src="assets/img/shape/index-shape-1.svg" alt="shape">
             </div>
-            <div class="shape-mockup jump home-3-shape-2">
+            <div class="shape-mockup jump index-shape-2">
                 <img src="assets/img/shape/servicce-2-shape-theme2.svg" alt="shape">
             </div>
-            <div class="shape-mockup jump-reverse home-3-shape-3">
-                <img src="assets/img/shape/home-3-shape-2.svg" alt="shape">
+            <div class="shape-mockup jump-reverse index-shape-3">
+                <img src="assets/img/shape/index-shape-2.svg" alt="shape">
             </div>
-            <div class="shape-mockup moving home-3-shape-4">
-                <img src="assets/img/shape/home-3-shape-3.svg" alt="shape">
+            <div class="shape-mockup moving index-shape-4">
+                <img src="assets/img/shape/index-shape-3.svg" alt="shape">
             </div>
 
             <div class="hero-style3">
@@ -344,10 +332,10 @@ Process Area
 About Area  
 ==============================-->
     <div class="about-sec-3 overflow-hidden space" id="about-sec" data-bg-src="assets/img/bg/about-sec-3-bg.jpg">
-        <div class="shape-mockup jump-reverse home-3-shape-1">
-            <img src="assets/img/shape/home-3-shape-1.svg" alt="shape">
+        <div class="shape-mockup jump-reverse index-shape-1">
+            <img src="assets/img/shape/index-shape-1.svg" alt="shape">
         </div>
-        <div class="shape-mockup jump home-3-shape-2">
+        <div class="shape-mockup jump index-shape-2">
             <img src="assets/img/shape/servicce-2-shape-theme2.svg" alt="shape">
         </div>
 
@@ -396,7 +384,7 @@ About Area
                         <div class="counter-card">
                             <div class="about-3-count-shape" data-mask-src="assets/img/icon/about-3-count-2.png"></div>
                             <div class="media-body">
-                                <h2 class="box-number"> <span class="number"><span class="counter-number">16</span>M</span><span class="plus">+</span></h2>
+                                <h2 class="box-number"> <span class="number"><span class="counter-number">16</span></span><span class="plus">+</span></h2>
                                 <p class="box-text">Satisfied Our Customers</p>
                             </div>
                         </div>
@@ -407,13 +395,7 @@ About Area
                                 <p class="box-text">Expert Members</p>
                             </div>
                         </div>
-                        <div class="counter-card">
-                            <div class="about-3-count-shape" data-mask-src="assets/img/icon/about-3-count-1.png"></div>
-                            <div class="media-body">
-                                <h2 class="box-number"> <span class="number"><span class="counter-number">120</span></span><span class="plus">+</span></h2>
-                                <p class="box-text">Company Award Winner</p>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
                 <div class="col-xl-6 mb-30 mb-xl-0">
@@ -541,14 +523,14 @@ Service Area
             <img src="assets/img/shape/servicce-2-shape-theme2.svg" alt="shape">
         </div>
         <div class="shape-mockup jump-reverse service-3-shape-2">
-            <img src="assets/img/shape/home-3-shape-1.svg" alt="shape">
+            <img src="assets/img/shape/index-shape-1.svg" alt="shape">
         </div>
 
         <div class="container">
             <div class="row gy-30 align-items-center justify-content-between">
                 <div class="col-xxl-6 col-xl-6 col-lg-12 col-md-10">
                     <div class="title-area text-center text-xl-start">
-                        <span class="sub-title style-3"><span class="left"></span> Our Services </span>
+                        <span class="sub-title style-3"><span class="left"></span> What We Do </span>
                         <h2 class="sec-title">The Services We Provide For Our Customer</h2>
                     </div>
                 </div>
@@ -665,14 +647,6 @@ Service Area
 
 
 
-    <!-- <div class="swiper th-slider testi-slider" id="testi-thumb" data-slider-options='{"effect":"slide","loop":false,"mousewheel":true,"spaceBetween":10,"paginationType":"progressbar","breakpoints":{"0":{"direction":"horizontal"},"1199":{"direction":"vertical"}}}'>
-    <div class="swiper-wrapper">
-        <div class="swiper-slide">
-
-        </div>
-    </div>
-</div> -->
-
     <div class="service-offer-sec-3 overflow-hidden">
         <div class="service-offer-wrapper style-2">
             <div class="service-offer-box">
@@ -696,7 +670,7 @@ Service Area
     </div><!--==============================
 Testimonial Area  
 ==============================-->
-    <section class="testi-card-area-2 overflow-hidden space" id="testi-sec">
+    <section class="testi-card-area-2 overflow-hidden space" id="testi-sec" style="padding-bottom: 0px;">
         <div class="shape-mockup testimonials-bg-3" data-right="0">
             <img src="assets/img/shape/testimonials-bg-3.png" alt="Image">
         </div>
@@ -809,11 +783,113 @@ Testimonial Area
     </section><!--==============================
 Gallery Area  
 ==============================-->
+
+<div class="container" style="padding-bottom: 70px;">
+    <div class="row">
+        <div class="brand-bg-wrap">
+            <div class="row">
+                <div class="col-12">
+                    <div class="brand-1-top">
+                        <h3 class="box-title">Our Valued Customers</h3>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="swiper th-slider" id="blogSlider2" data-slider-options='{"breakpoints":{"0":{"slidesPerView":2},"576":{"slidesPerView":"2"},"768":{"slidesPerView":"3"},"992":{"slidesPerView":"4"},"1200":{"slidesPerView":"5"},"1400":{"slidesPerView":"6"}}}'>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="brand-box">
+                                    <img src="assets/img/brand/AVEVA-LOGO-4-1.png" alt="Brand Logo">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="brand-box">
+                                    <img src="assets/img/brand/AVEVA-LOGO-2.png" alt="Brand Logo">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="brand-box">
+                                    <img src="assets/img/brand/AVEVA-LOGO-4.png" alt="Brand Logo">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="brand-box">
+                                    <img src="assets/img/brand/AVEVA-LOGO-2-3.png" alt="Brand Logo">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="brand-box">
+                                    <img src="assets/img/brand/AVEVA-LOGO-2-4.png" alt="Brand Logo">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="brand-box">
+                                    <img src="assets/img/brand/Heilbronn.png" alt="Brand Logo">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="brand-box">
+                                    <img src="assets/img/brand/City Diamond Contracting LL.png" alt="Brand Logo">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="brand-box">
+                                    <img src="assets/img/brand/the hanging house.png" alt="Brand Logo">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="brand-box">
+                                    <img src="assets/img/brand/Grand Crest.png" alt="Brand Logo">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="brand-box">
+                                    <img src="assets/img/brand/vem interiors.png" alt="Brand Logo">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="brand-box">
+                                    <img src="assets/img/brand/zaad food.png" alt="Brand Logo">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="brand-box">
+                                    <img src="assets/img/brand/Gunnebo.png" alt="Brand Logo">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="brand-box">
+                                    <img src="assets/img/brand/al fahim.png" alt="Brand Logo">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="brand-box">
+                                    <img src="assets/img/brand/expo.png" alt="Brand Logo">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="brand-box">
+                                    <img src="assets/img/brand/singapore.png" alt="Brand Logo">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="brand-box">
+                                    <img src="assets/img/brand/Nexture.png" alt="Brand Logo">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
     
     <footer class="footer-wrapper footer-layout1 style-2" data-bg-src="assets/img/bg/footer_bg_3.jpg">
 
         <div class="shape-mockup footer-shape-1 jump-reverse  d-none d-xxl-block">
-            <img src="assets/img/shape/home-3-shape-1.svg" alt="shape">
+            <img src="assets/img/shape/index-shape-1.svg" alt="shape">
         </div>
         <div class="shape-mockup footer-shape-2 jump-reverse">
             <img src="assets/img/shape/servicce-2-shape-theme2.svg" alt="shape">
@@ -865,10 +941,10 @@ Gallery Area
                             <h3 class="widget_title">Quick Links</h3>
                             <div class="menu-all-pages-container">
                                 <ul class="menu">
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">About Us</a></li>
-                                    <li><a href="#">Our Services</a></li>
-                                    <li><a href="#">Contact Us</a></li>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="service.html">Our Services</a></li>
+                                    <li><a href="contact.html">Contact Us</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -878,18 +954,18 @@ Gallery Area
                             <h3 class="widget_title">Our Services</h3>
                             <div class="menu-all-pages-container">
                                 <ul class="menu">
-                                    <li><a href="service-details.html">Commercial</a></li>
-                                    <li><a href="service-details.html">Residential</a></li>
-                                    <li><a href="service-details.html">Building Cleaning</a></li>
-                                    <li><a href="service-details.html">Deep Cleaning</a></li>
-                                    <li><a href="service-details.html">Residential Complex</a></li>
-                                    <li><a href="service-details.html">Shopping Malls</a></li>
-                                    <li><a href="service-details.html">Hotels</a></li>
-                                    <li><a href="service-details.html">Hospital</a></li>
-                                    <li><a href="service-details.html">School</a></li>
-                                    <li><a href="service-details.html">Carpet Cleaning</a></li>
-                                    <li><a href="service-details.html">Office & Commercial Cleaning</a></li>
-                                    <li><a href="service-details.html">Warehouse</a></li>
+                                    <li><a href="#">Commercial</a></li>
+                                    <li><a href="#">Residential</a></li>
+                                    <li><a href="#">Building Cleaning</a></li>
+                                    <li><a href="#">Deep Cleaning</a></li>
+                                    <li><a href="#">Residential Complex</a></li>
+                                    <li><a href="#">Shopping Malls</a></li>
+                                    <li><a href="#">Hotels</a></li>
+                                    <li><a href="#">Hospital</a></li>
+                                    <li><a href="#">School</a></li>
+                                    <li><a href="#">Carpet Cleaning</a></li>
+                                    <li><a href="#">Office & Commercial Cleaning</a></li>
+                                    <li><a href="#">Warehouse</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -904,7 +980,7 @@ Gallery Area
                                     </div>
                                     <div class="info-contnt">
                                         <h4 class="footer-info-title">Address</h4>
-                                        <p class="info-box_text">Office No: 106, Al Lotus Building, Salah Al deen street, Near Abubakar Sidhiq Metro, Al Khabeesi, Deira – Dubai, <br> Po Box: 94105</p>
+                                        <p class="info-box_text">Office No: 106, Al Lotus Building, Salah Al Din Street, Near Abubakar Siddique Metro, Al Khabaisi, Deira, Dubai, Po Box: 94105</p>
                                     </div>
                                 </div>
                                 <div class="info-box">
@@ -928,7 +1004,7 @@ Gallery Area
                                     <div class="info-contnt">
                                         <h4 class="footer-info-title">Email Us</h4>
                                         <p class="info-box_text">
-                                            <a href="mailto:info@evershinecleaningservices.com" class="info-box_link">info@evershinecleaningservices.com</a>
+                                            <a href="mailto:info@evershine.ae" class="info-box_link">info@evershine.ae</a>
                                         </p>
                                     </div>
 
