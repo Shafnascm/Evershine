@@ -16432,6 +16432,7 @@ span.select2-selection.select2-selection--single:focus {
   background-color: var(--smoke-color);
   border-radius: 30px;
   margin-top: 55px;
+  margin-bottom: 55px;
   padding: 38px 0;
 }
 
@@ -19392,7 +19393,7 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 @media (min-width: 1200px) {
-  .gallery-row .col-md-6,
+  .gallery-row .col-md-3,
   .gallery-row .col-lg-6 {
     width: 50%;
   }
@@ -20175,7 +20176,7 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .service-offer-wrapper .service-offer-box:last-child {
-  --duration: 80s;
+  --duration: 60s;
 }
 
 .service-offer-wrapper .service-offer-box.marquee--reverse .service-offer-group {
@@ -20394,8 +20395,8 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .service-offer-wrapper.style-2 .service-offer-box .service-offer-group .text a img {
-  border: 2px solid var(--theme-color2);
-  border-radius: 50%;
+  /* border: 2px solid var(--theme-color2);
+  border-radius: 50%; */
   margin-top: -10px;
   /* Medium Large devices */
   /* Medium Large devices */
@@ -21594,6 +21595,52 @@ span.select2-selection.select2-selection--single:focus {
 .space-extra2-bottom {
   padding-bottom: calc(var(--section-space) - 40px);
 }
+
+.brand-box img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  animation: swingLogo 6s ease-in-out infinite; /* Adjust timing as needed */
+}
+
+@keyframes swingLogo {
+  0% {
+      transform: rotate(0deg);
+  }
+  50% {
+      transform: rotate(180deg); /* Rotate to 90 degrees */
+  }
+  100% {
+      transform: rotate(0deg); /* Return to the original position */
+  }
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between icon and text */
+}
+
+.logo-icon img {
+  width: 80px; /* Adjust icon size */
+  height: auto;
+}
+
+.logo-text h1 {
+  margin: 0;
+  font-size: 20px; /* Adjust as needed */
+  color: green; /* Match the text style */
+}
+
+.logo-text p {
+  margin: 0;
+  font-size: 12px; /* Adjust as needed */
+  color: gray; /* Match the tagline style */
+}
+
+
+
 
 /* Medium devices */
 @media (max-width: 991px) {
