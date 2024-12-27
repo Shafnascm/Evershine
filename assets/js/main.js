@@ -977,6 +977,23 @@
             }
         });
     });
+    var swiper = new Swiper('.swiper-container', {
+        loop: true,  // Make the slider infinite
+        autoplay: {
+          delay: 3000,  // Slide interval (in ms)
+          disableOnInteraction: false,  // Keeps autoplay even after user interaction
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,  // Enable click on pagination dots
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
+      
+    
 
     // /*----------- 00. Right Click Disable ----------*/
     //   window.addEventListener('contextmenu', function (e) {

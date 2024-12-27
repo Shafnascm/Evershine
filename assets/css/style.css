@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*
-Template Name: Kleanix
+Template Name: Evershine
 Template URL: ''
 Description: 'Cleaning service Html Template'
 Author: themeholy 
@@ -5151,7 +5151,7 @@ ol.wp-block-rss {
 }
 
 .th-widget-about {
-  max-width: 315px;
+  max-width: 500px;
 }
 
 .th-widget-about .about-logo {
@@ -6326,7 +6326,7 @@ ol.wp-block-rss {
 
 .footer-wrapper .th-social a {
   background-color: #1F2432;
-  color: var(--white-color);
+  color: #0081e9;
 }
 
 .footer-wrapper .th-social a:hover {
@@ -17531,7 +17531,7 @@ span.select2-selection.select2-selection--single:focus {
 
 .service-card .box-content {
   padding: 30px;
-  background-color: #E7F3FF;
+  background-color: #007cfa;
   border-radius: 0 0 14px 14px;
   /* Medium devices */
 }
@@ -21625,6 +21625,7 @@ span.select2-selection.select2-selection--single:focus {
 .logo-icon img {
   width: 80px; /* Adjust icon size */
   height: auto;
+  margin-left: 100px;
 }
 
 .logo-text h1 {
@@ -21671,6 +21672,8 @@ span.select2-selection.select2-selection--single:focus {
   .space-extra2-bottom {
     padding-bottom: 70px;
   }
+  
 }
+
 
 /*# sourceMappingURL=style.css.map */
