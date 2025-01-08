@@ -21625,7 +21625,7 @@ span.select2-selection.select2-selection--single:focus {
 .logo-icon img {
   width: 80px; /* Adjust icon size */
   height: auto;
-  margin-left: 100px;
+  /*argin-left: 100px;*/
 }
 
 .logo-text h1 {
