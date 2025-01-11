@@ -992,6 +992,8 @@
           prevEl: '.swiper-button-prev',
         },
       });
+      document.querySelector('.logo-icon').classList.toggle('flip');
+
       
     
 

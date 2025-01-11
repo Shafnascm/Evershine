@@ -21597,11 +21597,9 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .brand-box img {
-  display: block;
   max-width: 100%;
   height: auto;
   object-fit: contain;
-  animation: swingLogo 6s ease-in-out infinite; /* Adjust timing as needed */
 }
 
 @keyframes swingLogo {
@@ -21619,7 +21617,7 @@ span.select2-selection.select2-selection--single:focus {
 .header-logo {
   display: flex;
   align-items: center;
-  gap: 10px; /* Space between icon and text */
+  /* gap: 10px; Space between icon and text */
 }
 
 .logo-icon img {
